@@ -44,8 +44,8 @@ const dateTime = {
     return dateTimeObject.getFullYear();
   },
   day: dateTimeObject => {
-    const index =  dateTimeObject.getDay() - 1;
-    return days[index];
+    const index = dateTimeObject.getDay() - 1
+    return days[index]
   },
   displayDate: dateTimeObject => {
     const showDay = dateTime.day(dateTimeObject);
